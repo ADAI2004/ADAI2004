@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <title>Несие формасы</title> 
+</head> 
+<body> 
+ <B>Сбер бандағы несиеге өтінішk</B> 
+   <FORM method="POST" action="loan.php"> 
+   Аты: 
+   <INPUT name="FirstName" type="text"> 
+   тегі: 
+   <INPUT name="LastName" type="text"> 
+   жасы: 
+   <INPUT name="Age" type="text" size="3"> 
+   <BR> 
+   <BR> 
+   сіздің тұрғылықты жеріңіз: 
+   <TEXTAREA name="Address" rows="4" cols="40"> 
+   </TEXTAREA> 
+   <BR> 
+   <BR> 
+   Ағымдағы жалақыңызды көрсетіңіз: 
+   <SELECT NAME="Salary"> 
+   <OPTION VALUE=0>дейін $10000</OPTION> 
+   <OPTION VALUE=10000>тг10000 - тг25000</OPTION> 
+   <OPTION VALUE=25000>тг25000 - тг50000</OPTION> 
+   <OPTION VALUE=50000>гөрі көбірек тг50000</OPTION> 
+   </SELECT> 
+   <BR><BR> 
+    
+ Қажетті несие сомасын таңдаңыз:<BR><BR> 
+   <INPUT name="Loan" type="radio" value="1000">тг1000 сағ 8,0% жылына 
+   <br> 
+   <INPUT name="Loan" type="radio" value="5000">тг5000 сағ 11,5% жылына 
+   <br> 
+   <INPUT name="Loan" type="radio" value="10000">тг10000 сағ 15,0% жылына 
+   <BR> 
+   <BR> 
+    
+   <a href="http://formphp/main.php"><INPUT type="submit" value="қолдану"></a> 
+   <INPUT type="reset" value="Clear"> 
+ </FORM> 
+  
+</body> 
+</html>
